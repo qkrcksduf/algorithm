@@ -1,6 +1,6 @@
 package 코딩_테스트_합격자_되기.집합
 
-class `간단한 유니온-파인드 알고리즘 구현하기` {
+class 포켓몬 {
 
     fun solution(nums: IntArray): Int {
         val hashSet = nums.toHashSet()
@@ -12,7 +12,7 @@ class `간단한 유니온-파인드 알고리즘 구현하기` {
 }
 
 fun main() {
-    val result = `간단한 유니온-파인드 알고리즘 구현하기`()
+    val result = 포켓몬()
     val nums1 = intArrayOf(3,1,2,3)
     val nums2 = intArrayOf(3,3,3,2,2,4)
     val nums3 = intArrayOf(3,3,3,2,2,2)
